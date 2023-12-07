@@ -1,0 +1,346 @@
+[2023-11-27T22:29:52+0000] {
+	"action" : "send",
+	"class_id" : "Message",
+	"input" : "input",
+	"json_object" : 
+	{
+		"content" : 
+		{
+			"body" : "just a body",
+			"header" : "ecs36b participation on 05/01/2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "John",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Helen",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "fire_ball"
+		},
+		"to" : 
+		{
+			"avatar name" : "whoever",
+			"class name" : "SP_Person"
+		}
+	},
+	"object_id" : "Message"
+}
+
+[2023-11-27T22:29:52+0000] {
+	"status" : "successful"
+}
+
+[2023-11-27T22:30:36+0000] {
+	"action" : "dump2JSON",
+	"class_id" : "Message",
+	"input" : "input",
+	"object_id" : "Message"
+}
+
+[2023-11-27T22:30:36+0000] {
+	"message" : 
+	{
+		"content" : 
+		{
+			"body" : "just a body",
+			"header" : "ecs36b participation on 05/01/2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "John",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Helen",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "fire_ball"
+		},
+		"to" : 
+		{
+			"avatar name" : "whoever",
+			"class name" : "SP_Person"
+		}
+	},
+	"status" : "successful"
+}
+
+[2023-11-27T22:36:38+0000] {
+	"action" : "dump2JSON",
+	"class_id" : "Message",
+	"input" : "input",
+	"object_id" : "Message"
+}
+
+[2023-11-27T22:36:38+0000] {
+	"reason" : "Message or team name mismatched",
+	"status" : "failed"
+}
+
+[2023-11-27T22:36:45+0000] {
+	"action" : "send",
+	"class_id" : "Message",
+	"input" : "input",
+	"json_object" : 
+	{
+		"content" : 
+		{
+			"body" : "ecs36b Exception tutorial available",
+			"header" : "midterm 5 on December 8, 2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "Tome",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Jerry",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "midterm_5"
+		},
+		"to" : 
+		{
+			"avatar name" : "Felix",
+			"class name" : "SP_Person"
+		}
+	},
+	"object_id" : "Message"
+}
+
+[2023-11-27T22:36:45+0000] {
+	"status" : "successful"
+}
+
+[2023-11-27T22:36:48+0000] {
+	"action" : "dump2JSON",
+	"class_id" : "Message",
+	"input" : "input",
+	"object_id" : "Message"
+}
+
+[2023-11-27T22:36:48+0000] {
+	"reason" : "Message or team name mismatched",
+	"status" : "failed"
+}
+
+[2023-11-27T22:38:11+0000] {
+	"action" : "dump2JSON",
+	"class_id" : "Message",
+	"input" : "input",
+	"object_id" : "Message"
+}
+
+[2023-11-27T22:38:11+0000] {
+	"message" : 
+	{
+		"content" : 
+		{
+			"body" : "ecs36b Exception tutorial available",
+			"header" : "midterm 5 on December 8, 2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "Tome",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Jerry",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "midterm_5"
+		},
+		"to" : 
+		{
+			"avatar name" : "Felix",
+			"class name" : "SP_Person"
+		}
+	},
+	"status" : "successful"
+}
+
+[2023-11-27T22:55:08+0000] {
+	"action" : "send",
+	"class_id" : "Message1",
+	"input" : "input",
+	"json_object" : 
+	{
+		"content" : 
+		{
+			"body" : "ecs36b Exception tutorial available",
+			"header" : "midterm 5 on December 8, 2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "Tome",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Jerry",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "midterm_5"
+		},
+		"to" : 
+		{
+			"avatar name" : "Felix",
+			"class name" : "SP_Person"
+		}
+	},
+	"object_id" : "Message1"
+}
+
+[2023-11-27T22:55:08+0000] {
+	"reason" : "class Message1 unknown",
+	"status" : "failed"
+}
+
+[2023-11-27T23:53:32+0000] {
+	"action" : "send",
+	"class_id" : "Message",
+	"input" : "input",
+	"json_object" : 
+	{
+		"content" : 
+		{
+			"body" : "ecs36b Exception tutorial available",
+			"header" : "midterm 5 on December 8, 2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "Tome",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Jerry",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "midterm_5"
+		},
+		"to" : 
+		{
+			"avatar name" : "Felix",
+			"class name" : "SP_Person"
+		}
+	},
+	"object_id" : "Message"
+}
+
+[2023-11-27T23:53:32+0000] {
+	"status" : "successful"
+}
+
+[2023-11-27T23:55:33+0000] {
+	"action" : "dump2JSON",
+	"class_id" : "Message",
+	"input" : "input",
+	"object_id" : "Message"
+}
+
+[2023-11-27T23:55:33+0000] {
+	"message" : 
+	{
+		"content" : 
+		{
+			"body" : "ecs36b Exception tutorial available",
+			"header" : "midterm 5 on December 8, 2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "Tome",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Jerry",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "midterm_5"
+		},
+		"to" : 
+		{
+			"avatar name" : "Felix",
+			"class name" : "SP_Person"
+		}
+	},
+	"status" : "successful"
+}
+
+[2023-11-27T23:58:02+0000] {
+	"action" : "send",
+	"class_id" : "Thing",
+	"input" : "input",
+	"json_object" : 
+	{
+		"content" : 
+		{
+			"body" : "ecs36b Exception tutorial available",
+			"header" : "midterm 5 on December 8, 2023"
+		},
+		"from" : 
+		{
+			"class name" : "Team",
+			"members" : 
+			[
+				{
+					"avatar name" : "Tom",
+					"class name" : "SP_Person"
+				},
+				{
+					"avatar name" : "Jerry",
+					"class name" : "SP_Person"
+				}
+			],
+			"name" : "midterm_6"
+		},
+		"to" : 
+		{
+			"avatar name" : "Felix",
+			"class name" : "SP_Person"
+		}
+	},
+	"object_id" : "Thing"
+}
+
+[2023-11-27T23:58:02+0000] {
+	"reason" : "class Thing unknown",
+	"status" : "failed"
+}
+

@@ -1,0 +1,28 @@
+{
+	"content" : 
+	{
+		"body" : "ecs36b Exception tutorial available",
+		"header" : "midterm 5 on December 8, 2023"
+	},
+	"from" : 
+	{
+		"class name" : "Team",
+		"members" : 
+		[
+			{
+				"avatar name" : "Tome",
+				"class name" : "SP_Person"
+			},
+			{
+				"avatar name" : "Jerry",
+				"class name" : "SP_Person"
+			}
+		],
+		"name" : "midterm_5"
+	},
+	"to" : 
+	{
+		"avatar name" : "Felix",
+		"class name" : "SP_Person"
+	}
+}
